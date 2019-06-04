@@ -22,7 +22,7 @@
     // of different video formats to add
     src: [
       {
-        src: 'right.mp4',
+        src: 'https://pan.ykblog.cn/uploads/right.mp4',
         type: 'video/mp4'
       },
       {
