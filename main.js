@@ -22,7 +22,7 @@
     // of different video formats to add
     src: [
       {
-        src: 'right.mp4',
+        src: 'https://www.zisu.design/down/%E9%9F%B3%E4%B9%90/MV/right.mp4',
         type: 'video/mp4'
       },
       {
