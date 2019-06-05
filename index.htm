@@ -144,7 +144,17 @@
       float: right;
     }
   </style>
-<script type="text/javascript">varurl=window.location.href;if(url.indexOf("https")<0){url=url.replace("http:","https:");window.location.replace(url);}</script>
+<script language="JavaScript" type="text/JavaScript">
+function redirect()
+{  
+  var loc = location.href.split(':');
+  if(loc[0]=='https')
+        {  
+        location.href='http:'+loc[1];  
+        }
+}                      
+onload=redirect  
+</script>
   <script src="https://use.typekit.net/nlq1kdt.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
