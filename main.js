@@ -11,7 +11,7 @@
     // Resize
     resize: true,
 
-    // autoplay: false,
+    // autoplay: true,
 
     isMobile: window.matchMedia('(max-width: 768px)').matches,
 
@@ -22,7 +22,7 @@
     // of different video formats to add
     src: [
       {
-        src: 'https://pan.ykblog.cn/uploads/right.mp4',
+        src: 'right.mp4',
         type: 'video/mp4'
       },
       {
